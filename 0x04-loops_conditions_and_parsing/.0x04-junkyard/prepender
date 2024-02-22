@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# cats to files, overwriting them.
+
+for file in $(ls)
+do
+	if [ "$file" != "prepender" ] && [ "$file" != "1-for_best_school" ]
+	then
+		echo '#!/usr/bin/env bash' > "$file"
+	fi
+done

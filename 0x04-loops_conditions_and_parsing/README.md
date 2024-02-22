@@ -1,1 +1,1 @@
-For loops in BASH, courtesy of ALX
+For loops and conditionals, courtesy of ALX
