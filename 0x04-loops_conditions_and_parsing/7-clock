@@ -1,1 +1,17 @@
 #!/usr/bin/env bash
+# uses a nested loop to count through the entire clock (half of it or so)
+
+hr=0
+max_hr=12
+max_min=59
+while [ $hr -le $max_hr ]
+do
+	echo "Hour: $hr"
+	((++hr))
+	min=1
+	while [ $min -le $max_min ]
+	do
+		echo "$min"
+		((++min))
+	done
+done
