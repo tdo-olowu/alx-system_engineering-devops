@@ -1,1 +1,18 @@
 #!/usr/bin/env bash
+# prints "Best School" or some custom message depending on count's value
+
+count=1
+max=20
+msg_4="bad luck from China"
+msg_9="bad luck from Japan"
+msg_17="bad luck from Italy"
+while [ $count -le $max ]
+do
+	case $count in
+		4)	echo "$msg_4" ;;
+		9)	echo "$msg_9" ;;
+		17)	echo "$msg_17" ;;
+		*)	echo "$count" ;;
+	esac
+	((++count))
+done
