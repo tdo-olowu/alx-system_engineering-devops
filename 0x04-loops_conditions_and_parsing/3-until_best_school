@@ -1,1 +1,11 @@
 #!/usr/bin/env bash
+# quite the persistent one. does something until condition is true
+
+count=10
+praise="Best School"
+until [ $count -eq 0 ]
+do
+	echo "$praise"
+	#((--count))
+	((count--))
+done
