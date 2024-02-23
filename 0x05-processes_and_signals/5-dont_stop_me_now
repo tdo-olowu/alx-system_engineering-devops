@@ -1,1 +1,8 @@
 #!/usr/bin/env bash
+# kills an endlessly running script in some terminal.
+
+proc_id=$(pgrep -f "4-to_infinity_and_beyond")
+if [ -n "$proc_id" ]
+then
+    kill "$proc_id"
+fi

@@ -1,1 +1,3 @@
 #!/usr/bin/env bash
+# kills an endlessly running script in some terminal.
+pkill "4-to_infinity_and_beyond"
