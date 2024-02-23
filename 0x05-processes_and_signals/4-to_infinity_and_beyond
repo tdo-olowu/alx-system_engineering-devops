@@ -1,1 +1,7 @@
 #!/usr/bin/env bash
+# an endless loop. Press Ctrl + C to kill it.
+while true
+do
+	echo "To infinity and beyond"
+	sleep 2
+done

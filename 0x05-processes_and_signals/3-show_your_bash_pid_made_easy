@@ -1,1 +1,3 @@
 #!/usr/bin/env bash
+# pgrep lists pid according to the pattern specified (bash in this case)
+pgrep --list-name bash
