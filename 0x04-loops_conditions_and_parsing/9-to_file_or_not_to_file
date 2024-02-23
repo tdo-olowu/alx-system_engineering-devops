@@ -5,11 +5,6 @@ filename="school"
 if [ -e "$filename" ]
 then
 	echo "$filename file exists"
-	# -f for file presumably. is file a (regular) file?
-	if [ -f "$filename" ]
-	then
-		echo "$filename is a regular file"
-	fi
 
 	# is the file empty?
 	if [ -s "$filename" ]
@@ -17,6 +12,12 @@ then
 		echo "$filename is not empty"
 	else
 		echo "$filename is empty"
+	fi
+
+	# -f for file presumably. is file a (regular) file?
+	if [ -f "$filename" ]
+	then
+		echo "$filename is a regular file"
 	fi
 
 else
