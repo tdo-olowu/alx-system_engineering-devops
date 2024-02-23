@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+# reads /etc/passwd, shows username, user id, home directory path for user
