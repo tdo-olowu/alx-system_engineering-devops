@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 # this script uses ssh to connect to a particular server
 
-# ssh-keygen -t rsa -b 4096 -f "school" -N "betty"
-ssh-keygen -f ~/.ssh/school -b 4096 -N betty
+ssh-keygen -t rsa -b 4096 -f "school" -N "betty"
